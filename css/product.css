@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+
+@media screen and (min-width: 320px){
+
+  .menubtn .material-icons{
+    padding: 5px;
+    margin: 10px;
+    position: absolute;
+    top: 3px;
+    background-color: none;
+    color: #04312b;
+    
+  }
+  
+  .logo{
+   
+    margin: 1px;
+    padding: 2px;
+    position: absolute;
+    top: 3px;
+    left: 40%;
+  }
+  .logo p{
+    visibility: hidden;
+  }
+  
+  
+  .extra{
+    visibility: hidden;
+  }
+  
+  .topcorner li{
+    display: inline;
+    
+  }
+
+  .topcorner {
+    position: absolute;
+    top: -5%;
+    left: 54%;
+    /* margin-right: 25px; */
+    
+    /* padding: 1px;  */
+  } 
+
+
+
+
+
+
+  .menuitems{
+    visibility: hidden;
+  }
+
+  .back{
+    position: absolute;
+    top: 11%;
+    margin: 20px;
+    
+    
+  }
+
+  .back .material-icons{
+    position: absolute;
+    font-size: 15px;
+    background-color: none;
+    color: #04312b;
+    
+  }
+
+
+  .descp{
+    text-align: center;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    /* text-indent: 50px; */
+  }
+
+  .ingre{
+    text-align: center;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  h1{
+    text-align: center;
+    font-size: 10px;
+
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  h3{
+    text-align: center;
+    padding: 0.5em;
+    font-family: 'Playfair', serif;
+  }
+
+  .rate .material-icons{
+    font-size: 14px;
+  }
+
+  .rate{
+    text-align: center;
+  }
+
+  .thmup .material-icons{
+    position: absolute;
+    left: 88%;
+    margin-right: 1.3em;
+    
+  }
+  .thmup .material-icons{
+    font-size: 18px;
+    color: rgba(0,0,0,0.54);
+    background-color: transparent;
+    /* opacity: 0.5;
+    filter: alpha(opacity= 50); */
+    color:#04312b;
+  }
+  
+  .thmup .material-icons:hover{
+    color: #c69200;
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+  }
+
+  .product1{
+    padding:24px;
+  }
+  .mainproduct .add{
+    margin-left: 1.7em;
+    margin-right: 1.7em;
+  }
+
+
+
+
+  .similar .material-icons{
+    position: absolute;
+    left: 80%;
+
+  }
+
+  .similar .material-icons{
+    font-size: 18px;
+    color: rgba(0,0,0,0.54);
+    background-color: transparent;
+    /* opacity: 0.5;
+    filter: alpha(opacity= 50); */
+    color:#04312b;
+  }
+  
+  .similar .material-icons:hover{
+    color: #c69200;
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+  }
+  
+  
+  .quantprice{
+    display: grid;
+    grid-template-areas: 
+      "simprice  quantity-button";
+    background-color: lightgray;
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    padding:0.5em;
+    
+    color:black;
+
+    
+  }
+
+  .similar{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
+    padding:25px;
+    
+  }
+  .revhead{
+    text-align: center;
+  }
+  .revhead a{
+    
+    color: #1e392a;
+    padding: 2em;
+    text-transform: uppercase;
+    font-family:  'Playfair Display', serif;
+    font-size: 1em;
+  }
+
+  .reviews{
+    display: none;
+  }
+
+  .email{
+    margin: 0.5em;
+  } 
+
+}
+
+
+@media screen and (min-width: 600px){
+
+
+
+  .menubtn{
+    display: none;
+  }
+
+  .logo{
+    margin: 1px;
+    padding: 2px;
+    position: absolute;
+    top:3px;
+    left: 2%;
+  }
+
+  .logo p{
+    visibility: visible;
+  }
+
+  .extra{
+    visibility: none;
+    
+  }
+
+
+  .topcorner {
+    position: absolute;
+    top: -20px;
+    left: 70%;
+    margin: 30px;
+    
+  } 
+
+  .menuitems {
+    visibility: visible;
+    /* position: absolute;
+    top: 19%; */
+    text-align: center;
+    background-color: #04312b;
+    padding:15px;
+    
+    
+  }
+  .menuitems li{
+    display: inline;
+    
+    
+  }
+  .menuitems a{
+    color: #d4b1ab;
+    padding: 17px;
+    
+    
+  }
+
+  .back{
+    position: absolute;
+    top:21%;
+    margin:20px;
+  }
+
+  h1{
+    position: absolute;
+    top:25%;
+    left: 36%;
+    text-align: center;
+  }
+
+  h2{
+    text-align: left;
+    position: absolute;
+    top:29%;
+    left: 46%;
+    
+  }
+  .rate{
+    position: absolute;
+    top:32%;
+    left: 45%;
+  }
+  .product1{
+    padding: 3em;
+    padding-top:16em;
+  }
+  .mainproduct .add{
+    margin-left: 3em;
+    margin-right: 3em;
+  }
+ 
+  .similar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: none;
+    grid-gap: 2em; 
+    padding:3em;
+  }
+
+
+  .similar .material-icons{
+    
+    position: relative;
+    
+    
+  }
+
+  .quantprice{
+   display:  block;
+  }
+
+
+  @media screen and (min-width: 900px) {
+    .logo{
+      padding-bottom: 2em;
+    }
+    .back{
+      margin-top:5em;
+      margin-left:5em;
+    }
+    .product1{
+      margin-left: 5em;
+      margin-right: 5em;
+    }
+
+    .thmup .material-icons{
+      position: absolute;
+      left: 80%;
+    }
+    .mainproduct .add{
+      margin-left: 14em;
+      margin-right: 14em;
+    }
+   
+    .similar{
+      margin-left: 10em;
+      margin-right: 10em;
+    
+    }
+
+
+    .reviews{
+      display: block;
+    }
+
+    .reviews p{
+      font-family: 'Raleway', sans-serif;
+    }
+
+    .respon{
+      
+      font-family: 'Raleway', sans-serif;
+      text-align: center;
+    }
+    .line{
+      text-align: center;
+      color: black;
+      margin-top:1em;
+      font-family: 'Raleway', sans-serif;
+
+    }
+    .writerev a{
+      color: #04312b;
+      font-family: 'Playfair Display', serif;
+      text-transform: uppercase;
+    }
+    .writerev{
+      text-align: center;
+      margin:0.5em;
+    }
+
+
+    .displayrev{
+      font-family: 'Raleway', sans-serif;
+      padding: 0.7em;
+    }
+    .npage a{
+      color: #04312b;
+      font-family: 'Playfair Display', serif;
+      text-transform: uppercase;
+    }
+
+    .npage{
+      text-align: center;
+      
+    }
+
+
+
+
+
+
+
+
+    
+    /* .terms li{
+      display: inline; 
+
+    }
+
+    .terms a{
+      padding: 0.5em;
+      color: #d4b1ab;
+    }
+    .terms{
+      background-color: #04312b;
+      text-align: left;
+      padding: 1em;
+
+    }
+    .social a{
+      color: #d4b1ab;
+    }
+
+    .social{
+      text-align: left;
+      padding: 1em;
+      background-color: #04312b;
+    } */
+}
+
+
+
+
+}
