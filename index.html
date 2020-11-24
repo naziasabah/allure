@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Allure</title>
+    <meta name="description" content="This website is about beauty products.">
+    <meta name="author" content="Nazia-Nur-A-Sabah">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body>
+    <!-- 
+      Deliverable:  Final assignment_1
+      Name:         Nazia-Nur-A-Sabah
+      Student #:    101218274
+      Email:        Nazia.Nur-A-Sabah@georgebrown.ca
+      Submitted:    November 26th, 2019
+      Notes:        Hi!
+
+
+      [X] I have reviewed the appropriate checklist before submitting this work
+-->
+    
+    <header>
+      <!-- Site logo, replace with your own -->
+    <!-- <article class="top"> -->
+
+
+      <div class="logo">
+        <a href="index.html"><img src="img/newlogo.png" alt="Allure"></a>
+        <p>Allure</p> 
+      </div>
+
+      <!-- Navigation menu and toggle button (non-functional) -->
+      <nav>
+       
+      <button type="button" class="hambmenu">
+        <i class="material-icons">menu</i>
+      </button> 
+      <!-- <section class="main_menu">
+        <h3><button type="button" class="hambmenu"><i class="material-icons">menu</i></button></h3>
+        <h3>Menu</h3>
+        <div class="main_menuopt">
+          <select name="menu" id="menu">
+            <option value="home">Home</option>
+            <option value="new">New</option>
+            <option value="hair">Hair</option>
+            <option value="face">Face</option>
+            <option value="body">Body</option>
+            <option value="more">More</option>
+          </select>
+        </div> 
+      </section>    -->
+      <!-- <section>
+          <div class="menu">
+          <button class="menubtn">Menu</button>
+          <div class="menuopt">
+            <a href="#">Home</a>
+            <a href="#">New</a>
+            <a href="#">Hair</a>
+            <a href="#">Body</a>
+            <a href="#"></a>
+          <div>
+          <div>
+        </section> -->
+        
+       
+    <!-- </article> -->
+
+      <!-- Additional nav links -->
+<!--      
+        <ul class="menu">
+          <li><a href="#">Home </a></li>
+          <li><a href="#">New </a></li>
+          <li><a href="#">Hair </a></li>
+          <li><a href="#">Face </a></li>
+          <li><a href="#">Body </a></li>
+          <li><a href="#">More </a></li>
+        </ul> -->
+
+        <section class="topcorner">
+          <a href="#"><i class="material-icons">shopping_basket</i></a>
+        </section>
+            
+        
+        
+     </nav>
+    </header>
+
+    <main>
+      <header>
+        <div class="current"><h2>currently browsing...</h2></div>
+        <h1 style="text-align: center">Online Exclusive</h1>
+        <!-- <button id="toggleview" class="btn-view">Toggle View</button> -->
+
+        <!-- Filtering product form -->
+        <form>
+        <section>
+          <div class="filter">
+            <h3><button class="filterbtn">FILTER</button></h3>
+            <div class="filteropt">
+                <fieldset class="search">
+                    <h3><label>Search</label></h3>
+                    <input type="text" name="name" id="name" value="">
+                </fieldset>
+                <fieldset class="sort">
+                    <h3>Sort By</h3>
+                    <select name="sort" id="sort">
+                      <option value="all">All</option>
+                      <option value="price-high">Price, highest to lowest</option>
+                      <option value="price-low" selected>Price, lowest to highest</option>
+                    </select>
+                </fieldset>
+            
+                <fieldset class="scent">
+                    <h3>Scent</h3>
+                    <select name="scent" id="scent">
+                      <option value="all">All</option>
+                      <option value="citrus">Citrus</option>
+                      <option value="floral">Floral</option>
+                      <option value="fruity">Fruity</option>
+                      <option value="sweet">Sweet</option>
+                    </select>
+                </fieldset>
+           
+                <fieldset class="category">
+                    <h3>Category</h3>
+                    <select name="category" id="category">
+                      <option value="all">All</option>
+                      <option value="bath-bomb">Bath bomb</option>
+                      <option value="body-wash">Body wash</option>
+                      <option value="body-lotion">Body lotion</option>
+                      <option value="body-wax">Body wax</option>
+                      <option value="body-soap">Body soap</option>
+                      <option value="hand-soap">Hand soap</option>
+                    </select>
+                </fieldset>
+            
+            <div>
+          <div>
+        </section>
+        </form>
+      </header>
+      
+      <h2 style="text-align: center;">top results...</h2>
+      <section id="products">
+  
+      </section>
+
+      <article>
+        
+        <p>1-10 of 20 products found</p>
+        <div class="page">
+            <input type="button" value="Previous" class="previous">
+            <input type="quantity" value="1" class="input-text qty text" min="1" max="" name="quantity-button" step="1" inputmode="numeric">
+            <input type="button" value="Next" class="next">
+          </div>
+        <!-- <ul>
+          <li><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+        </ul> -->
+      </article>
+    </main>
+
+    <footer>
+      <div class="terms">
+      
+      <ul>
+        <li><a href="#">Terms of Use</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Accessibility Policy</a></li>
+      </ul>
+      </div>  
+      <ul class="social">
+        <li><a href="#"><i class="material-icons">face</i></a></li>
+        <li><a href="#"><i class="material-icons">camera_alt</i></a></li>
+        <li><a href="#"><i class="material-icons">alternate_email</i></a></li>
+      </ul>
+      <p>&copy; Copyright, 1970.</p>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
