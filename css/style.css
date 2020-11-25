@@ -12,6 +12,24 @@ main{
   background-color: #F7F7F7;
 }
 
+/* topmenu */
+.topmenu li{
+  display: inline;
+  padding: 1em;
+ 
+}
+.topmenu{
+  margin: 0.5em;
+  position: absolute;
+  left: 39.5%;
+  /* display: inline; */
+  /* float: left; */
+  color: #1e392a;
+  font-family:  Times, 'Playfair Display', serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding: 10px;
+}
 /* select size */
 .menubtn{
   background-color: black;
