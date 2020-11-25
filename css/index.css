@@ -57,26 +57,38 @@
     display: none;
   }
 
+  .topmenu{
+    display: inline;
+    position: absolute;
+    left: 32%;
+  }
 
   .logo{
-    margin: 1px 0px;
-    padding: 1px 1px 32px;
+   
+    width: 110px;
     position: absolute;
-    top:3px;
-    left: 2%;
+    top:1em;
+    
     
    
   }
 
   .logo p{
-    visibility: visible;
+    visibility: invisible;
   }
 
-  .topcorner{
+  /* .topcorner{
     position: absolute;
     top:6%;
     left: 80%;
+  } */
+
+  .topcorner{
+    position: absolute;
+    top:1.2em;
+    left: 90%;
   }
+
 
   .menu {
     visibility: visible;
@@ -101,24 +113,17 @@
   h1{
     
     position: absolute;
-    top:18%;
+    top:15%;
     left:35%;
     /* padding: 5px; */
   }
   
     
   .current{
+    padding-top: 3em;
     text-align: center;
-    
-    
   }
   
-
-
-
-    
-  
-    
   form{
     margin-top:7em;
     margin-left:1em;
@@ -143,8 +148,14 @@
 
 @media screen and (min-width: 900px){
 
+
+  .logo p{
+    visibility: visible;
+  }
   .topmenu{
     display: inline;
+    position: absolute;
+    left: 39.5%;
   }
   .logo{
     width: 120px;
@@ -161,7 +172,7 @@
   h1{
     position: absolute;
     left: 41.5%;
-    top: 7em;
+    top: 9em;
   }
 
   form{
@@ -184,7 +195,7 @@
 
   .current{
     padding-left: 10px;
-    padding-top: 7em;
+    padding-top: 10em;
   }
 
 
