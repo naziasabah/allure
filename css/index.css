@@ -5,7 +5,9 @@
 @media screen and (min-width: 320px){
 
  
-  
+  body{
+    padding: 1em;
+  }
   .logo p{
     visibility: hidden;
   }
@@ -15,9 +17,12 @@
   }
   .topcorner{
     position: absolute;
-    top:0.5em;
-    left:68%;
-    margin-right:25em;
+    top:1.2em;
+    left:85%;
+    /* margin-right:25px; */
+  }
+  .topmenu{
+    display: none;
   }
 
   .products{
@@ -138,18 +143,32 @@
 
 @media screen and (min-width: 900px){
 
-  .topcorner{
+  .topmenu{
+    display: inline;
+  }
+  .logo{
+    width: 120px;
     position: absolute;
-    top:3em;
+    top: 1em;
   }
 
- 
+  .topcorner{
+    position: absolute;
+    top:1.2em;
+    left: 90%;
+  }
+
+  h1{
+    position: absolute;
+    left: 41.5%;
+    top: 7em;
+  }
 
   form{
-    margin-top:9em;
-    margin-left:3em;
-    margin-right: 3em;
-    padding: 5em;
+    margin-top:7em;
+    margin-left:1em;
+    margin-right: 1em;
+    padding: 1em;
   }
 
   .products{
@@ -163,7 +182,10 @@
     padding: 1em;
   }
 
-
+  .current{
+    padding-left: 10px;
+    padding-top: 7em;
+  }
 
 
 
