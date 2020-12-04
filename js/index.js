@@ -293,7 +293,7 @@ function loadByName(event){
 
 renderProducts(products);
 
-document.getElementById('toggleview').addEventListener('click', toggleProductLayout);
+// document.getElementById('toggleview').addEventListener('click', toggleProductLayout);
 document.getElementById('scent').addEventListener('change', loadScent);
 document.getElementById('category').addEventListener('change', loadCategory);
 document.getElementById('name').addEventListener('input',loadByName);
